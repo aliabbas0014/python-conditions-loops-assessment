@@ -5,8 +5,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,40:1D4ED8,100:06B6D4&amp;height=220&amp;section=header&amp;text=Python%20Conditions%20%26%20Loops%20Suite&amp;fontSize=38&amp;fontColor=FFFFFF&amp;fontAlignY=38&amp;desc=Scholarship%20Eligibility%20%26%20Pharmacy%20Inventory%20Management&amp;descAlignY=58&amp;descSize=13&amp;animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=3000&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Python+Conditions+and+Loops;Student+Scholarship+Eligibility+System;Pharmacy+Inventory+Management;Learning+Python+Through+Practical+Projects" alt="Typing Animation" />
-
 <br>
 
 ![Python Conditions and Loops Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,40:1D4ED8,100:06B6D4&height=220&section=header&text=Python%20Conditions%20and%20Loops%20Suite&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Scholarship%20Eligibility%20and%20Pharmacy%20Inventory%20Management&descAlignY=58&descSize=13&animation=fadeIn)
