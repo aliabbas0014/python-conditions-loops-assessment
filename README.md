@@ -2,6 +2,8 @@
 <!-- ================= ANIMATED HEADER ================= -->
 
 <div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=3000&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Python+Conditions+and+Loops;Student+Scholarship+Eligibility+System;Pharmacy+Inventory+Management;Learning+Python+Through+Practical+Projects" alt="Typing Animation" />
+
 
 <br>
 
