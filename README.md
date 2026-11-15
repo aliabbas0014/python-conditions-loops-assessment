@@ -9,11 +9,7 @@
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)
-![Assessment](https://img.shields.io/badge/Bootcamp-Assessment%2001-8B5CF6?style=for-the-badge)
-![Status](https://img.shields.io/badge/Project-Completed-22C55E?style=for-the-badge)
-![Type](https://img.shields.io/badge/Applications-Console%20Based-0EA5E9?style=for-the-badge)
-
+![Python Conditions and Loops Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,40:1D4ED8,100:06B6D4&height=220&section=header&text=Python%20Conditions%20and%20Loops%20Suite&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Scholarship%20Eligibility%20and%20Pharmacy%20Inventory%20Management&descAlignY=58&descSize=13&animation=fadeIn)
 <br>
 
 **A beginner-friendly Python project demonstrating conditional statements, loops, input validation, and practical calculations through two real-world applications.**
