@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1100" height="560" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1068" height="528" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1068" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TASK 01 • USE CASES</text>
+  <text x="176" y="54" class="title-main">Scholarship System — Use Case Diagram</text>
+  <text x="36" y="77" class="title-sub">Student actor interactions with the Student Scholarship Eligibility System</text>
+  <line x1="36" y1="90" x2="1064" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Actor: Student -->
+  <g transform="translate(115, 255)">
+    <circle cx="0" cy="-35" r="22" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="2.2"/>
+    <circle cx="0" cy="-41" r="7" fill="#3B82F6"/>
+    <path d="M -12 -24 Q 0 -16 12 -24" fill="none" stroke="#3B82F6" stroke-width="2.2"/>
+    <line x1="0" y1="-13" x2="0" y2="25" stroke="#172554" stroke-width="2.5"/>
+    <line x1="-22" y1="-2" x2="22" y2="-2" stroke="#172554" stroke-width="2.5"/>
+    <line x1="0" y1="25" x2="-18" y2="56" stroke="#172554" stroke-width="2.5"/>
+    <line x1="0" y1="25" x2="18" y2="56" stroke="#172554" stroke-width="2.5"/>
+    <rect x="-46" y="66" width="92" height="26" rx="13" fill="#172554"/>
+    <text x="0" y="83" text-anchor="middle" class="label-badge">STUDENT</text>
+  </g>
+
+  <!-- System Boundary -->
+  <rect x="250" y="112" width="800" height="392" rx="14" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.8" stroke-dasharray="8,5"/>
+  <rect x="274" y="100" width="330" height="26" rx="6" fill="url(#bpGrad)"/>
+  <text x="439" y="117" text-anchor="middle" class="label-badge">STUDENT SCHOLARSHIP ELIGIBILITY SYSTEM</text>
+
+  <!-- Use Cases -->
+  <ellipse cx="475" cy="182" rx="155" ry="34" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="475" y="186" text-anchor="middle" class="box-title">UC1: Enter Student Information</text>
+
+  <ellipse cx="475" cy="274" rx="155" ry="34" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="475" y="278" text-anchor="middle" class="box-title">UC2: Validate Input Data</text>
+
+  <ellipse cx="475" cy="366" rx="155" ry="34" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="475" y="370" text-anchor="middle" class="box-title">UC3: Evaluate Scholarship Eligibility</text>
+
+  <ellipse cx="475" cy="458" rx="155" ry="34" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="475" y="462" text-anchor="middle" class="box-title">UC4: View Eligibility Report</text>
+
+  <!-- Secondary / Included Use Cases -->
+  <rect x="720" y="248" width="295" height="52" rx="8" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="867" y="271" text-anchor="middle" class="box-title">Check Numeric &amp; Range Validity</text>
+  <text x="867" y="289" text-anchor="middle" class="box-text">Marks/Att. 0–100%, Income &gt;= 0</text>
+
+  <rect x="720" y="340" width="295" height="68" rx="8" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="867" y="363" text-anchor="middle" class="box-title">Classify Tier or Reason</text>
+  <text x="867" y="382" text-anchor="middle" class="box-text">Full (&gt;=90%), Partial (80–89%),</text>
+  <text x="867" y="399" text-anchor="middle" class="box-text">or Ineligible with reason</text>
+
+  <!-- Actor Associations -->
+  <line x1="160" y1="230" x2="322" y2="182" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="160" y1="255" x2="322" y2="274" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="160" y1="275" x2="322" y2="366" stroke="#8B5CF6" stroke-width="1.8"/>
+  <line x1="160" y1="295" x2="322" y2="458" stroke="#3B82F6" stroke-width="1.8"/>
+
+  <!-- Include relations -->
+  <line x1="630" y1="274" x2="716" y2="274" stroke="#64748B" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowDark)"/>
+  <text x="673" y="266" text-anchor="middle" class="edge-label">«include»</text>
+
+  <line x1="630" y1="366" x2="716" y2="374" stroke="#8B5CF6" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowPurple)"/>
+  <text x="673" y="358" text-anchor="middle" class="edge-label">«include»</text>
+
+
+  <line x1="36" y1="522" x2="1064" y2="522" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="540" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1064" y="540" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

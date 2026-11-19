@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 560" width="1180" height="560">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1180" height="560" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1148" height="528" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1148" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TASK 02 • STRUCTURE</text>
+  <text x="176" y="54" class="title-main">Pharmacy System — Functional Structure</text>
+  <text x="36" y="77" class="title-sub">Core functional modules for Task 02: Smart Pharmacy Inventory &amp; Sales Management System</text>
+  <line x1="36" y1="90" x2="1144" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Top Loop Controller -->
+  <rect x="350" y="110" width="480" height="58" rx="10" fill="url(#bpGrad)" filter="url(#cardShadow)"/>
+  <text x="590" y="135" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Pharmacy Inventory &amp; Sales Loop (for medicine in count)</text>
+  <text x="590" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">Iterates across medicines, tracks revenue accumulator &amp; restock counter</text>
+
+  <!-- Connector lines to 6 modules -->
+  <line x1="590" y1="168" x2="590" y2="198" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="125" y1="198" x2="1055" y2="198" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="125" y1="198" x2="125" y2="224" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="311" y1="198" x2="311" y2="224" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="497" y1="198" x2="497" y2="224" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="683" y1="198" x2="683" y2="224" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="869" y1="198" x2="869" y2="224" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="1055" y1="198" x2="1055" y2="224" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- 6 Modules -->
+  <!-- 1. Medicine Input -->
+  <rect x="40" y="228" width="170" height="235" rx="10" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="40" y="228" width="170" height="32" rx="10" fill="#3B82F6"/>
+  <text x="125" y="249" text-anchor="middle" class="label-badge">1. MEDICINE INPUT</text>
+  <text x="125" y="282" text-anchor="middle" class="box-title">Collect Item Data</text>
+  <text x="52" y="308" class="box-text">• Medicine name</text>
+  <text x="52" y="328" class="box-text">• Available stock</text>
+  <text x="52" y="348" class="box-text">• Unit price</text>
+  <text x="52" y="368" class="box-text">• Quantity sold</text>
+  <rect x="52" y="390" width="146" height="54" rx="6" fill="#FFFFFF" stroke="#BFDBFE"/>
+  <text x="125" y="412" text-anchor="middle" class="box-code">name, stock,</text>
+  <text x="125" y="430" text-anchor="middle" class="box-code">price, qty_sold</text>
+
+  <!-- 2. Stock Validation -->
+  <rect x="226" y="228" width="170" height="235" rx="10" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="226" y="228" width="170" height="32" rx="10" fill="#2563EB"/>
+  <text x="311" y="249" text-anchor="middle" class="label-badge">2. STOCK CHECK</text>
+  <text x="311" y="282" text-anchor="middle" class="box-title">Validate Quantity</text>
+  <text x="238" y="308" class="box-text">• qty_sold &gt;= 0</text>
+  <text x="238" y="328" class="box-text">• qty_sold &lt;= stock</text>
+  <text x="238" y="348" class="box-text">• Reject excess sale</text>
+  <text x="238" y="368" class="box-text">• Preserve stock</text>
+  <rect x="238" y="390" width="146" height="54" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="311" y="412" text-anchor="middle" class="box-code">if qty_sold &gt;</text>
+  <text x="311" y="430" text-anchor="middle" class="box-code">available_stock</text>
+
+  <!-- 3. Sales Calculation -->
+  <rect x="412" y="228" width="170" height="235" rx="10" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="412" y="228" width="170" height="32" rx="10" fill="#7C3AED"/>
+  <text x="497" y="249" text-anchor="middle" class="label-badge">3. SALES CALC</text>
+  <text x="497" y="282" text-anchor="middle" class="box-title">Compute Revenue</text>
+  <text x="424" y="308" class="box-text">• Item sale subtotal</text>
+  <text x="424" y="328" class="box-text">• Add to daily total</text>
+  <text x="424" y="348" class="box-text">• Currency formatting</text>
+  <text x="424" y="368" class="box-text">• Per-item tracking</text>
+  <rect x="424" y="390" width="146" height="54" rx="6" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="497" y="412" text-anchor="middle" class="box-code">sale = qty * price</text>
+  <text x="497" y="430" text-anchor="middle" class="box-code">total += sale</text>
+
+  <!-- 4. Stock Update -->
+  <rect x="598" y="228" width="170" height="235" rx="10" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="598" y="228" width="170" height="32" rx="10" fill="#4F46E5"/>
+  <text x="683" y="249" text-anchor="middle" class="label-badge">4. STOCK UPDATE</text>
+  <text x="683" y="282" text-anchor="middle" class="box-title">Update &amp; Alert</text>
+  <text x="610" y="308" class="box-text">• Deduct sold units</text>
+  <text x="610" y="328" class="box-text">• Check &lt; 10 units</text>
+  <text x="610" y="348" class="box-text">• Low-stock alert</text>
+  <text x="610" y="368" class="box-text">• Inc restock count</text>
+  <rect x="610" y="390" width="146" height="54" rx="6" fill="#FFFFFF" stroke="#C7D2FE"/>
+  <text x="683" y="412" text-anchor="middle" class="box-code">rem = stock - qty</text>
+  <text x="683" y="430" text-anchor="middle" class="box-code">if rem &lt; 10:</text>
+
+  <!-- 5. Accumulator &amp; Counter -->
+  <rect x="784" y="228" width="170" height="235" rx="10" fill="url(#softPurpleGrad)" stroke="#A78BFA" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="784" y="228" width="170" height="32" rx="10" fill="#8B5CF6"/>
+  <text x="869" y="249" text-anchor="middle" class="label-badge">5. TRACKERS</text>
+  <text x="869" y="282" text-anchor="middle" class="box-title">State Trackers</text>
+  <text x="796" y="308" class="box-text">• Accumulator: total</text>
+  <text x="796" y="328" class="box-text">  pharmacy revenue</text>
+  <text x="796" y="348" class="box-text">• Counter: medicines</text>
+  <text x="796" y="368" class="box-text">  needing restock</text>
+  <rect x="796" y="390" width="146" height="54" rx="6" fill="#FFFFFF" stroke="#E9D5FF"/>
+  <text x="869" y="412" text-anchor="middle" class="box-code">total_revenue</text>
+  <text x="869" y="430" text-anchor="middle" class="box-code">restock_count += 1</text>
+
+  <!-- 6. Final Report -->
+  <rect x="970" y="228" width="170" height="235" rx="10" fill="url(#bpGrad)" filter="url(#cardShadow)"/>
+  <rect x="970" y="228" width="170" height="32" rx="10" fill="#172554"/>
+  <text x="1055" y="249" text-anchor="middle" class="label-badge">6. SALES REPORT</text>
+  <text x="1055" y="282" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Generate Report</text>
+  <text x="982" y="308" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Medicines processed</text>
+  <text x="982" y="328" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Total daily revenue</text>
+  <text x="982" y="348" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Restock count</text>
+  <text x="982" y="368" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Low-stock list</text>
+  <rect x="982" y="390" width="146" height="54" rx="6" fill="#1E293B" stroke="#60A5FA"/>
+  <text x="1055" y="412" text-anchor="middle" font-family="'Consolas', monospace" font-size="11" fill="#60A5FA">Daily Pharmacy</text>
+  <text x="1055" y="430" text-anchor="middle" font-family="'Consolas', monospace" font-size="11" fill="#A78BFA">Summary Report</text>
+
+  <text x="590" y="494" text-anchor="middle" class="box-text">Loop Lifecycle:  Input  →  Stock Validation  →  Sales &amp; Stock Update  →  Accumulators  →  Next Medicine / Final Report</text>
+
+
+  <line x1="36" y1="522" x2="1144" y2="522" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="540" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1144" y="540" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

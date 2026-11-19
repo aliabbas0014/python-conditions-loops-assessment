@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 55" width="220" height="55">
+  <defs>
+    <linearGradient id="exploreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="exploreFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="218" height="53" rx="11" fill="url(#exploreFill)" stroke="url(#exploreGrad)" stroke-width="1.5"/>
+  <rect x="3" y="3" width="214" height="22" rx="9" fill="#FFFFFF" fill-opacity="0.12"/>
+  <!-- Compass / Arrow Icon -->
+  <circle cx="27" cy="27.5" r="9" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+  <polygon points="24.5,25 30.5,25 27.5,31" fill="#FFFFFF"/>
+  <text x="124" y="32" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1.1">EXPLORE PROJECT</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 55" width="220" height="55">
+  <defs>
+    <linearGradient id="srcBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="218" height="53" rx="11" fill="#111318" stroke="url(#srcBorder)" stroke-width="1.6"/>
+  <rect x="14" y="14" width="27" height="27" rx="7" fill="#172554" stroke="#60A5FA" stroke-width="1"/>
+  <text x="27.5" y="32" text-anchor="middle" font-family="'Consolas', monospace" font-size="13" font-weight="700" fill="#60A5FA">&lt;/&gt;</text>
+  <text x="126" y="32" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1.1">VIEW SOURCE CODE</text>
+</svg>

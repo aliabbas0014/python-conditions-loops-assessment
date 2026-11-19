@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 470" width="1140" height="470">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1140" height="470" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1108" height="438" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1108" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TASK 02 • INVENTORY WORKFLOW</text>
+  <text x="176" y="54" class="title-main">Pharmacy Inventory Update Workflow</text>
+  <text x="36" y="77" class="title-sub">How medicine stock is verified, deducted after a valid sale, and flagged for restocking</text>
+  <line x1="36" y1="90" x2="1104" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Step 1 -->
+  <rect x="44" y="126" width="235" height="255" rx="10" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="44" y="126" width="235" height="32" rx="10" fill="#3B82F6"/>
+  <text x="161" y="147" text-anchor="middle" class="label-badge">STEP 1: INITIAL STOCK</text>
+  <text x="161" y="182" text-anchor="middle" class="box-title">Inspect Available Units</text>
+  <text x="58" y="210" class="box-text">• Enter medicine name</text>
+  <text x="58" y="232" class="box-text">• Read available_stock</text>
+  <text x="58" y="254" class="box-text">• Read quantity_sold</text>
+  <rect x="60" y="278" width="203" height="82" rx="8" fill="#FFFFFF" stroke="#BFDBFE"/>
+  <text x="161" y="302" text-anchor="middle" class="box-text">Example:</text>
+  <text x="161" y="324" text-anchor="middle" class="box-code">stock = 25 units</text>
+  <text x="161" y="344" text-anchor="middle" class="box-code">qty_sold = 18 units</text>
+
+  <line x1="279" y1="254" x2="313" y2="254" stroke="#3B82F6" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 2 -->
+  <rect x="317" y="126" width="235" height="255" rx="10" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="317" y="126" width="235" height="32" rx="10" fill="#2563EB"/>
+  <text x="434" y="147" text-anchor="middle" class="label-badge">STEP 2: STOCK VALIDATION</text>
+  <text x="434" y="182" text-anchor="middle" class="box-title">Compare Sold vs. Stock</text>
+  <text x="331" y="210" class="box-text">• If qty_sold &gt; stock:</text>
+  <text x="343" y="230" class="box-text">Cancel sale, keep stock</text>
+  <text x="331" y="252" class="box-text">• If qty_sold &lt;= stock:</text>
+  <text x="343" y="272" class="box-text">Approve transaction</text>
+  <rect x="333" y="294" width="203" height="66" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="434" y="320" text-anchor="middle" class="box-code">18 &lt;= 25 → Approved</text>
+  <text x="434" y="342" text-anchor="middle" class="box-text">Proceed to deduction</text>
+
+  <line x1="552" y1="254" x2="586" y2="254" stroke="#8B5CF6" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Step 3 -->
+  <rect x="590" y="126" width="235" height="255" rx="10" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="1.8" filter="url(#cardShadow)"/>
+  <rect x="590" y="126" width="235" height="32" rx="10" fill="#7C3AED"/>
+  <text x="707" y="147" text-anchor="middle" class="label-badge">STEP 3: DEDUCT INVENTORY</text>
+  <text x="707" y="182" text-anchor="middle" class="box-title">Compute Remaining Stock</text>
+  <text x="604" y="210" class="box-text">• Subtract sold quantity</text>
+  <text x="604" y="232" class="box-text">• Update inventory count</text>
+  <text x="604" y="254" class="box-text">• Record item sale total</text>
+  <rect x="606" y="278" width="203" height="82" rx="8" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="707" y="304" text-anchor="middle" class="box-code">remaining = 25 - 18</text>
+  <text x="707" y="328" text-anchor="middle" class="box-title" fill="#4C1D95">Remaining = 7 units</text>
+  <text x="707" y="348" text-anchor="middle" class="box-text">Inventory updated</text>
+
+  <line x1="825" y1="254" x2="859" y2="254" stroke="#8B5CF6" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Step 4 -->
+  <rect x="863" y="126" width="233" height="255" rx="10" fill="url(#bpGrad)" filter="url(#cardShadow)"/>
+  <rect x="863" y="126" width="233" height="32" rx="10" fill="#172554"/>
+  <text x="979" y="147" text-anchor="middle" class="label-badge">STEP 4: LOW-STOCK CHECK</text>
+  <text x="979" y="182" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Threshold &lt; 10 Units</text>
+  <text x="877" y="210" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• 7 &lt; 10 → True!</text>
+  <text x="877" y="232" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Print low-stock warning</text>
+  <text x="877" y="254" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Increment restock counter</text>
+  <rect x="879" y="278" width="201" height="82" rx="8" fill="#1E293B" stroke="#A78BFA"/>
+  <text x="979" y="304" text-anchor="middle" font-family="'Consolas', monospace" font-size="11.5" fill="#FBBF24">⚠ LOW STOCK (&lt;10)</text>
+  <text x="979" y="328" text-anchor="middle" font-family="'Consolas', monospace" font-size="11.5" fill="#60A5FA">restock_count += 1</text>
+  <text x="979" y="348" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E2E8F0">Flagged for reorder</text>
+
+
+  <line x1="36" y1="432" x2="1104" y2="432" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="450" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1104" y="450" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

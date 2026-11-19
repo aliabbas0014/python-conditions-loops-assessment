@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 760" width="1160" height="760">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1160" height="760" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1128" height="728" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1128" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TASK 02 • FLOWCHART</text>
+  <text x="176" y="54" class="title-main">Pharmacy System — For-Loop Flowchart</text>
+  <text x="36" y="77" class="title-sub">Iterative processing of multiple medicines, stock checks, calculations, and final report</text>
+  <line x1="36" y1="90" x2="1124" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Start &amp; Init -->
+  <rect x="420" y="104" width="300" height="44" rx="10" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="1.8"/>
+  <text x="570" y="123" text-anchor="middle" class="box-title">START &amp; Initialize Trackers</text>
+  <text x="570" y="140" text-anchor="middle" class="box-code">total_revenue = 0, restock_count = 0, med_count</text>
+  <line x1="570" y1="148" x2="570" y2="174" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Loop Decision -->
+  <polygon points="570,178 745,222 570,266 395,222" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="570" y="218" text-anchor="middle" class="box-title">More Medicines in Loop?</text>
+  <text x="570" y="236" text-anchor="middle" class="box-code">for i in range(med_count)</text>
+
+  <!-- No -> Final Report -->
+  <line x1="745" y1="222" x2="860" y2="222" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <text x="802" y="213" text-anchor="middle" class="edge-label">Loop Done</text>
+
+  <rect x="864" y="182" width="250" height="106" rx="10" fill="url(#bpGrad)" filter="url(#cardShadow)"/>
+  <text x="989" y="210" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Generate Final Report</text>
+  <text x="989" y="234" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Total Daily Revenue</text>
+  <text x="989" y="254" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Medicines Needing Restock</text>
+  <text x="989" y="274" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#EFF6FF">• Itemized Stock Summary</text>
+
+  <!-- Yes -> Collect Medicine -->
+  <line x1="570" y1="266" x2="570" y2="294" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="596" y="284" class="edge-label">Yes</text>
+
+  <rect x="385" y="298" width="370" height="50" rx="8" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="1.8"/>
+  <text x="570" y="320" text-anchor="middle" class="box-title">Read Medicine Details</text>
+  <text x="570" y="338" text-anchor="middle" class="box-text">name, available_stock, unit_price, quantity_sold</text>
+  <line x1="570" y1="348" x2="570" y2="374" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Stock Check Diamond -->
+  <polygon points="570,378 755,424 570,470 385,424" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="570" y="420" text-anchor="middle" class="box-title">quantity_sold &lt;= available_stock?</text>
+  <text x="570" y="438" text-anchor="middle" class="box-text">Stock availability validation</text>
+
+  <!-- Insufficient Stock Path -->
+  <line x1="755" y1="424" x2="864" y2="424" stroke="#DC2626" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="808" y="415" text-anchor="middle" class="edge-label" fill="#DC2626">No (Exceeds)</text>
+
+  <rect x="868" y="392" width="246" height="64" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="991" y="416" text-anchor="middle" class="box-title" fill="#991B1B">Reject Sale &amp; Warn</text>
+  <text x="991" y="436" text-anchor="middle" class="box-text">Insufficient stock; no sale added</text>
+
+  <!-- Return arrow from Insufficient stock to loop -->
+  <path d="M 991 456 L 991 702 L 150 702 L 150 222 L 391 222" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowDark)"/>
+
+  <!-- Valid Stock -> Sales &amp; Remaining Stock -->
+  <line x1="570" y1="470" x2="570" y2="498" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="596" y="488" class="edge-label">Yes</text>
+
+  <rect x="370" y="502" width="400" height="58" rx="8" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="1.8"/>
+  <text x="570" y="525" text-anchor="middle" class="box-title">Calculate Sale &amp; Update Stock</text>
+  <text x="570" y="545" text-anchor="middle" class="box-code">sale = unit_price * qty_sold | rem_stock = stock - qty_sold | total += sale</text>
+  <line x1="570" y1="560" x2="570" y2="584" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Low Stock Diamond (< 10) -->
+  <polygon points="570,588 735,626 570,664 405,626" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="570" y="623" text-anchor="middle" class="box-title">rem_stock &lt; 10?</text>
+  <text x="570" y="640" text-anchor="middle" class="box-text">Low-stock check</text>
+
+  <!-- Low Stock Yes -->
+  <line x1="735" y1="626" x2="868" y2="626" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <text x="800" y="617" text-anchor="middle" class="edge-label">Yes (&lt; 10)</text>
+
+  <rect x="868" y="596" width="246" height="60" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.8"/>
+  <text x="991" y="619" text-anchor="middle" class="box-title" fill="#92400E">Low-Stock Warning</text>
+  <text x="991" y="639" text-anchor="middle" class="box-code">restock_count += 1</text>
+
+  <!-- Low Stock No -> back to loop -->
+  <line x1="405" y1="626" x2="150" y2="626" stroke="#3B82F6" stroke-width="1.8"/>
+  <text x="275" y="618" text-anchor="middle" class="edge-label">No (&gt;= 10) → Next Medicine</text>
+
+
+  <line x1="36" y1="722" x2="1124" y2="722" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="740" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1124" y="740" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

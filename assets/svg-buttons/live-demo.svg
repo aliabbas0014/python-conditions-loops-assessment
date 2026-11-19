@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 55" width="220" height="55">
+  <defs>
+    <linearGradient id="liveDemoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="55%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="liveDemoInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="218" height="53" rx="11" fill="url(#liveDemoInner)" stroke="url(#liveDemoGrad)" stroke-width="1.5"/>
+  <rect x="3" y="3" width="214" height="22" rx="9" fill="#FFFFFF" fill-opacity="0.12"/>
+  <!-- Play Icon -->
+  <polygon points="24,19 24,36 37,27.5" fill="#FFFFFF"/>
+  <text x="122" y="32" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1.1">VIEW LIVE DEMO</text>
+</svg>

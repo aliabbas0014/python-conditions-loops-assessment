@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 540" width="1160" height="540">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1160" height="540" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1128" height="508" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1128" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">PROJECT • ARCHITECTURE</text>
+  <text x="176" y="54" class="title-main">Project Architecture — Conditions &amp; Loops Assessment</text>
+  <text x="36" y="77" class="title-sub">Overview of both independent Python applications, processing stages, and shared documentation/demo</text>
+  <line x1="36" y1="90" x2="1124" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Top Repository Header -->
+  <rect x="240" y="106" width="680" height="46" rx="10" fill="#172554" filter="url(#cardShadow)"/>
+  <text x="580" y="128" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">GitHub Repository: python-conditions-loops-assessment</text>
+  <text x="580" y="145" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#93C5FD">Two Standalone Python Applications  •  Interactive Demo (demo.html)  •  SVG Documentation Assets</text>
+
+  <line x1="580" y1="152" x2="580" y2="180" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="305" y1="180" x2="855" y2="180" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="305" y1="180" x2="305" y2="204" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="855" y1="180" x2="855" y2="204" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Left App: Task 01 -->
+  <rect x="52" y="208" width="506" height="254" rx="12" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <rect x="52" y="208" width="506" height="36" rx="12" fill="#3B82F6"/>
+  <text x="305" y="231" text-anchor="middle" class="label-badge">TASK 01: STUDENT SCHOLARSHIP ELIGIBILITY SYSTEM</text>
+
+  <rect x="74" y="260" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="179" y="283" text-anchor="middle" class="box-title">1. Input &amp; Validation</text>
+  <text x="179" y="302" text-anchor="middle" class="box-text">Marks, Attendance, Income</text>
+
+  <rect x="326" y="260" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="431" y="283" text-anchor="middle" class="box-title">2. Rule Evaluation</text>
+  <text x="431" y="302" text-anchor="middle" class="box-text">&gt;=80%, &gt;=85%, &lt;=Rs.50,000</text>
+
+  <rect x="74" y="332" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="179" y="355" text-anchor="middle" class="box-title">3. Tier Classification</text>
+  <text x="179" y="374" text-anchor="middle" class="box-text">Full (&gt;=90%) / Partial (80–89%)</text>
+
+  <rect x="326" y="332" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="431" y="355" text-anchor="middle" class="box-title">4. Eligibility Report</text>
+  <text x="431" y="374" text-anchor="middle" class="box-text">Award or Ineligible Reason</text>
+
+  <text x="305" y="424" text-anchor="middle" class="box-code">Focus: Conditional Branching (if / elif / else &amp; logical checks)</text>
+  <text x="305" y="446" text-anchor="middle" class="box-text">Single-student evaluation per execution</text>
+
+  <!-- Right App: Task 02 -->
+  <rect x="602" y="208" width="506" height="254" rx="12" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="2" filter="url(#cardShadow)"/>
+  <rect x="602" y="208" width="506" height="36" rx="12" fill="#7C3AED"/>
+  <text x="855" y="231" text-anchor="middle" class="label-badge">TASK 02: SMART PHARMACY INVENTORY &amp; SALES SYSTEM</text>
+
+  <rect x="624" y="260" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="729" y="283" text-anchor="middle" class="box-title">1. For-Loop Input</text>
+  <text x="729" y="302" text-anchor="middle" class="box-text">Name, Stock, Price, Sold Qty</text>
+
+  <rect x="876" y="260" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="981" y="283" text-anchor="middle" class="box-title">2. Stock &amp; Sale Logic</text>
+  <text x="981" y="302" text-anchor="middle" class="box-text">Validate qty, calc sale &amp; stock</text>
+
+  <rect x="624" y="332" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="729" y="355" text-anchor="middle" class="box-title">3. Alerts &amp; Trackers</text>
+  <text x="729" y="374" text-anchor="middle" class="box-text">&lt;10 alert, revenue &amp; restock</text>
+
+  <rect x="876" y="332" width="210" height="54" rx="8" fill="#FFFFFF" stroke="#DDD6FE"/>
+  <text x="981" y="355" text-anchor="middle" class="box-title">4. Daily Sales Report</text>
+  <text x="981" y="374" text-anchor="middle" class="box-text">Total revenue &amp; restock count</text>
+
+  <text x="855" y="424" text-anchor="middle" class="box-code">Focus: Loops (for / range), Accumulators &amp; Counters</text>
+  <text x="855" y="446" text-anchor="middle" class="box-text">Multi-medicine batch processing per execution</text>
+
+
+  <line x1="36" y1="502" x2="1124" y2="502" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="520" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1124" y="520" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

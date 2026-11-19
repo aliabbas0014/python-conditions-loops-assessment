@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 620" width="1180" height="620">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1180" height="620" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1148" height="588" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1148" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TESTING • TEST MATRIX</text>
+  <text x="176" y="54" class="title-main">Testing &amp; Verification Test Cases</text>
+  <text x="36" y="77" class="title-sub">Comprehensive test matrix covering all 9 required scenarios across Scholarship and Pharmacy systems</text>
+  <line x1="36" y1="90" x2="1144" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Table Header -->
+  <rect x="36" y="108" width="1108" height="36" rx="8" fill="#172554"/>
+  <text x="64" y="131" class="label-badge">ID</text>
+  <text x="125" y="131" class="label-badge">SYSTEM</text>
+  <text x="275" y="131" class="label-badge">TEST SCENARIO</text>
+  <text x="615" y="131" class="label-badge">SAMPLE INPUT / CONDITION</text>
+  <text x="895" y="131" class="label-badge">EXPECTED OUTPUT</text>
+
+  <!-- 9 Rows -->
+  <!-- Row 1 -->
+  <rect x="36" y="148" width="1108" height="46" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="64" y="176" class="box-code">TC-01</text>
+  <text x="125" y="176" class="box-text" fill="#2563EB" font-weight="700">Scholarship</text>
+  <text x="275" y="176" class="box-title">Marks below 80%</text>
+  <text x="615" y="176" class="box-code">Marks=74%, Att=90%, Inc=35k</text>
+  <text x="895" y="176" class="box-text">Ineligible (marks below 80%)</text>
+
+  <!-- Row 2 -->
+  <rect x="36" y="196" width="1108" height="46" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="64" y="224" class="box-code">TC-02</text>
+  <text x="125" y="224" class="box-text" fill="#2563EB" font-weight="700">Scholarship</text>
+  <text x="275" y="224" class="box-title">Marks of 80–89%</text>
+  <text x="615" y="224" class="box-code">Marks=85%, Att=88%, Inc=40k</text>
+  <text x="895" y="224" class="box-text" fill="#4C1D95" font-weight="700">Partial Scholarship qualified</text>
+
+  <!-- Row 3 -->
+  <rect x="36" y="244" width="1108" height="46" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="64" y="272" class="box-code">TC-03</text>
+  <text x="125" y="272" class="box-text" fill="#2563EB" font-weight="700">Scholarship</text>
+  <text x="275" y="272" class="box-title">Marks of 90% or above</text>
+  <text x="615" y="272" class="box-code">Marks=93%, Att=92%, Inc=45k</text>
+  <text x="895" y="272" class="box-text" fill="#1D4ED8" font-weight="700">Full Scholarship qualified</text>
+
+  <!-- Row 4 -->
+  <rect x="36" y="292" width="1108" height="46" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="64" y="320" class="box-code">TC-04</text>
+  <text x="125" y="320" class="box-text" fill="#2563EB" font-weight="700">Scholarship</text>
+  <text x="275" y="320" class="box-title">Attendance below 85%</text>
+  <text x="615" y="320" class="box-code">Marks=91%, Att=78%, Inc=30k</text>
+  <text x="895" y="320" class="box-text">Ineligible (attendance &lt; 85%)</text>
+
+  <!-- Row 5 -->
+  <rect x="36" y="340" width="1108" height="46" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="64" y="368" class="box-code">TC-05</text>
+  <text x="125" y="368" class="box-text" fill="#2563EB" font-weight="700">Scholarship</text>
+  <text x="275" y="368" class="box-title">Income above Rs. 50,000</text>
+  <text x="615" y="368" class="box-code">Marks=92%, Att=90%, Inc=65k</text>
+  <text x="895" y="368" class="box-text">Ineligible (income &gt; Rs. 50,000)</text>
+
+  <!-- Row 6 -->
+  <rect x="36" y="388" width="1108" height="46" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="64" y="416" class="box-code">TC-06</text>
+  <text x="125" y="416" class="box-text" fill="#7C3AED" font-weight="700">Pharmacy</text>
+  <text x="275" y="416" class="box-title">Quantity exceeding available stock</text>
+  <text x="615" y="416" class="box-code">Stock=10, Price=50, Sold=15</text>
+  <text x="895" y="416" class="box-text">Sale rejected; stock unchanged</text>
+
+  <!-- Row 7 -->
+  <rect x="36" y="436" width="1108" height="46" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="64" y="464" class="box-code">TC-07</text>
+  <text x="125" y="464" class="box-text" fill="#7C3AED" font-weight="700">Pharmacy</text>
+  <text x="275" y="464" class="box-title">Successful medicine sale</text>
+  <text x="615" y="464" class="box-code">Stock=30, Price=120, Sold=8</text>
+  <text x="895" y="464" class="box-text">Sale=Rs.960, Rem=22, Rev+=960</text>
+
+  <!-- Row 8 -->
+  <rect x="36" y="484" width="1108" height="46" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="64" y="512" class="box-code">TC-08</text>
+  <text x="125" y="512" class="box-text" fill="#7C3AED" font-weight="700">Pharmacy</text>
+  <text x="275" y="512" class="box-title">Remaining stock below 10 units</text>
+  <text x="615" y="512" class="box-code">Stock=15, Price=80, Sold=7</text>
+  <text x="895" y="512" class="box-text" fill="#92400E" font-weight="700">Rem=8 (&lt;10): Low alert &amp; restock+1</text>
+
+  <!-- Row 9 -->
+  <rect x="36" y="532" width="1108" height="46" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="64" y="560" class="box-code">TC-09</text>
+  <text x="125" y="560" class="box-text" fill="#7C3AED" font-weight="700">Pharmacy</text>
+  <text x="275" y="560" class="box-title">Multiple medicine processing</text>
+  <text x="615" y="560" class="box-code">Loop over N medicines (e.g. 3)</text>
+  <text x="895" y="560" class="box-text">Aggregated revenue &amp; report</text>
+
+
+  <line x1="36" y1="582" x2="1144" y2="582" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="600" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1144" y="600" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>

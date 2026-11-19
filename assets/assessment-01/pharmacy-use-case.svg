@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 570" width="1120" height="570">
+
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="bpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="softBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="softPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#111318" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <style>
+      .title-main { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #111318; }
+      .title-sub { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #475569; letter-spacing: 0.4px; }
+      .box-title { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #111318; }
+      .box-text { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; }
+      .box-code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 11.5px; font-weight: 600; fill: #172554; }
+      .label-badge { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .edge-label { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11.5px; font-weight: 700; fill: #1E293B; }
+      .footer-note { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #64748B; }
+    </style>
+  </defs>
+
+
+  <rect x="0" y="0" width="1120" height="570" fill="#F8FAFC"/>
+  <rect x="16" y="16" width="1088" height="538" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1088" height="6" rx="3" fill="url(#headerGrad)"/>
+  <rect x="36" y="34" width="126" height="24" rx="12" fill="url(#bpGrad)"/>
+  <text x="99" y="50" text-anchor="middle" class="label-badge">TASK 02 • USE CASES</text>
+  <text x="176" y="54" class="title-main">Pharmacy System — Use Case Diagram</text>
+  <text x="36" y="77" class="title-sub">Pharmacy operator interactions with the Smart Pharmacy Inventory &amp; Sales Management System</text>
+  <line x1="36" y1="90" x2="1084" y2="90" stroke="#E2E8F0" stroke-width="1.5"/>
+
+
+  <!-- Actor: Pharmacy Operator -->
+  <g transform="translate(115, 265)">
+    <circle cx="0" cy="-35" r="22" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="2.2"/>
+    <circle cx="0" cy="-41" r="7" fill="#8B5CF6"/>
+    <path d="M -12 -24 Q 0 -16 12 -24" fill="none" stroke="#8B5CF6" stroke-width="2.2"/>
+    <line x1="0" y1="-13" x2="0" y2="25" stroke="#172554" stroke-width="2.5"/>
+    <line x1="-22" y1="-2" x2="22" y2="-2" stroke="#172554" stroke-width="2.5"/>
+    <line x1="0" y1="25" x2="-18" y2="56" stroke="#172554" stroke-width="2.5"/>
+    <line x1="0" y1="25" x2="18" y2="56" stroke="#172554" stroke-width="2.5"/>
+    <rect x="-64" y="66" width="128" height="26" rx="13" fill="#172554"/>
+    <text x="0" y="83" text-anchor="middle" class="label-badge">PHARMACY OPERATOR</text>
+  </g>
+
+  <!-- System Boundary -->
+  <rect x="255" y="112" width="815" height="405" rx="14" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.8" stroke-dasharray="8,5"/>
+  <rect x="280" y="100" width="380" height="26" rx="6" fill="url(#bpGrad)"/>
+  <text x="470" y="117" text-anchor="middle" class="label-badge">PHARMACY INVENTORY &amp; SALES SYSTEM</text>
+
+  <!-- Use Cases -->
+  <ellipse cx="485" cy="176" rx="165" ry="32" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="485" y="180" text-anchor="middle" class="box-title">UC1: Enter Medicine &amp; Sale Data</text>
+
+  <ellipse cx="485" cy="256" rx="165" ry="32" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="485" y="260" text-anchor="middle" class="box-title">UC2: Validate Stock Availability</text>
+
+  <ellipse cx="485" cy="336" rx="165" ry="32" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="485" y="340" text-anchor="middle" class="box-title">UC3: Process Sale &amp; Update Stock</text>
+
+  <ellipse cx="485" cy="416" rx="165" ry="32" fill="url(#softBlueGrad)" stroke="#3B82F6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="485" y="420" text-anchor="middle" class="box-title">UC4: Monitor Low-Stock Alerts</text>
+
+  <ellipse cx="485" cy="484" rx="165" ry="26" fill="url(#softPurpleGrad)" stroke="#8B5CF6" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="485" y="489" text-anchor="middle" class="box-title">UC5: View Final Sales Report</text>
+
+  <!-- Right Extensions / Includes -->
+  <rect x="735" y="226" width="305" height="60" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="887" y="250" text-anchor="middle" class="box-title">Verify qty_sold &lt;= stock</text>
+  <text x="887" y="270" text-anchor="middle" class="box-text">Prevents selling unavailable units</text>
+
+  <rect x="735" y="324" width="305" height="72" rx="8" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="887" y="348" text-anchor="middle" class="box-title">Accumulate Revenue &amp; Stock</text>
+  <text x="887" y="368" text-anchor="middle" class="box-text">total_revenue += price * qty_sold</text>
+  <text x="887" y="386" text-anchor="middle" class="box-text">remaining = stock - qty_sold</text>
+
+  <rect x="735" y="416" width="305" height="62" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  <text x="887" y="440" text-anchor="middle" class="box-title" fill="#92400E">Flag Restock (&lt; 10 Units)</text>
+  <text x="887" y="460" text-anchor="middle" class="box-text">Increments restock counter &amp; warns</text>
+
+  <!-- Actor Lines -->
+  <line x1="168" y1="238" x2="322" y2="176" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="168" y1="258" x2="322" y2="256" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="168" y1="275" x2="322" y2="336" stroke="#8B5CF6" stroke-width="1.8"/>
+  <line x1="168" y1="292" x2="322" y2="416" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="168" y1="308" x2="322" y2="484" stroke="#8B5CF6" stroke-width="1.8"/>
+
+  <!-- Connectors to detail boxes -->
+  <line x1="650" y1="256" x2="731" y2="256" stroke="#3B82F6" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowBlue)"/>
+  <line x1="650" y1="336" x2="731" y2="356" stroke="#8B5CF6" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowPurple)"/>
+  <line x1="650" y1="416" x2="731" y2="444" stroke="#8B5CF6" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowPurple)"/>
+
+
+  <line x1="36" y1="532" x2="1084" y2="532" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="550" class="footer-note">Python Programming Assessment – Conditions &amp; Loops • Task 01 &amp; Task 02</text>
+  <text x="1084" y="550" text-anchor="end" class="footer-note">aliabbas0014/python-conditions-loops-assessment</text>
+
+</svg>
