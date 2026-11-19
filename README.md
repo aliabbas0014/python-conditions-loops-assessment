@@ -1,21 +1,28 @@
- 
-<!-- ================= ANIMATED HEADER ================= -->
+ <div align="center">
 
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=3000&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Python+Conditions+and+Loops;Student+Scholarship+Eligibility+System;Pharmacy+Inventory+Management;Learning+Python+Through+Practical+Projects" alt="Typing Animation" />
+<img src="assets/assessment-01/header-banner.svg" width="100%" alt="Python Programming Conditions and Loops Banner">
 
-
-<br>
-
-![Python Conditions and Loops Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,40:1D4ED8,100:06B6D4&height=220&section=header&text=Python%20Conditions%20and%20Loops%20Suite&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Scholarship%20Eligibility%20and%20Pharmacy%20Inventory%20Management&descAlignY=58&descSize=13&animation=fadeIn)
 <br>
 
 **A beginner-friendly Python project demonstrating conditional statements, loops, input validation, and practical calculations through two real-world applications.**
 
 <br>
 
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Conditions-Decision%20Making-3B82F6?style=for-the-badge" alt="Conditions">
+<img src="https://img.shields.io/badge/Loops-Iteration-8B5CF6?style=for-the-badge" alt="Loops">
+<img src="https://img.shields.io/badge/Assessment-01-A78BFA?style=for-the-badge" alt="Assessment 01">
+
+<br><br>
+
 <a href="https://aliabbas0014.github.io/python-conditions-loops-assessment/demo.html">
-  <img src="https://img.shields.io/badge/🚀_VIEW_LIVE_DEMO-Open%20Interactive%20Preview-0EA5E9?style=for-the-badge" alt="Live Demo">
+  <img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
+</a>
+<a href="https://github.com/aliabbas0014/python-conditions-loops-assessment">
+  <img src="assets/svg-buttons/source-code.svg" alt="View Source Code">
+</a>
+<a href="#project-documentation">
+  <img src="assets/svg-buttons/explore-project.svg" alt="Explore Project">
 </a>
 
 </div>
@@ -28,14 +35,13 @@
 - [Project Modules](#-project-modules)
 - [Key Features](#-key-features)
 - [Live Demo](#-live-demo)
+- [Project Documentation](#-project-documentation)
 - [Project Structure](#-project-structure)
 - [Technologies Used](#-technologies-used)
 - [Python Concepts Implemented](#-python-concepts-implemented)
 - [Installation and Setup](#-installation-and-setup)
 - [How to Run](#-how-to-run-the-programs)
-- [Application Workflows](#-application-workflows)
 - [Test Cases](#-test-cases)
-- [Use Cases](#-use-cases)
 - [Sample Outputs](#-sample-outputs)
 - [Input Validation and Error Handling](#-input-validation-and-error-handling)
 - [Learning Outcomes](#-learning-outcomes)
@@ -74,6 +80,8 @@ Both applications use Python's built-in functionality and fundamental programmin
 
 ### 1. Student Scholarship Eligibility System
 
+<badge color="info">Task 01</badge>
+
 **File:** `student_scholarship_system.py`
 
 This application evaluates a student's eligibility for a scholarship using three criteria:
@@ -84,13 +92,13 @@ This application evaluates a student's eligibility for a scholarship using three
 | Attendance Percentage | 85% or above |
 | Monthly Family Income | Rs. 50,000 or less |
 
-### Scholarship Categories
+#### Scholarship Categories
 
 - **Full Scholarship:** Marks are 90% or above and all eligibility conditions are satisfied.
 - **Partial Scholarship:** Marks are between 80% and 89% and all eligibility conditions are satisfied.
 - **Not Eligible:** One or more eligibility conditions are not fulfilled.
 
-### Main Features
+#### Main Features
 
 - Accept student name and academic information.
 - Check scholarship eligibility.
@@ -99,13 +107,37 @@ This application evaluates a student's eligibility for a scholarship using three
 - Validate marks, attendance, and income inputs.
 - Display a complete scholarship eligibility report.
 
-### 2. Pharmacy Inventory Management System
+#### Function Structure
+
+![Scholarship Function Structure](assets/assessment-01/scholarship-function-structure.svg)
+
+#### Scholarship Eligibility Flowchart
+
+![Scholarship Flowchart](assets/assessment-01/scholarship-flowchart.svg)
+
+#### Eligibility Decision Diagram
+
+![Scholarship Eligibility Decision](assets/assessment-01/scholarship-eligibility-decision.svg)
+
+#### Scholarship Use Case
+
+![Scholarship Use Case](assets/assessment-01/scholarship-use-case.svg)
+
+#### Scholarship Evaluation Process
+
+![Scholarship Evaluation Process](assets/assessment-01/scholarship-evaluation-process.svg)
+
+---
+
+### 2. Pharmacy Inventory & Sales Management System
+
+<badge color="discovery">Task 02</badge>
 
 **File:** `pharmacy_inventory_system.py`
 
 This application manages medicine inventory and calculates sales revenue based on stock availability and quantities sold.
 
-### Main Features
+#### Main Features
 
 - Accept the number of medicines.
 - Record medicine names, stock quantities, and prices.
@@ -117,6 +149,26 @@ This application manages medicine inventory and calculates sales revenue based o
 - Calculate total sales revenue.
 - Count medicines requiring restocking.
 - Display a final inventory and sales report.
+
+#### Function Structure
+
+![Pharmacy Function Structure](assets/assessment-01/pharmacy-function-structure.svg)
+
+#### Pharmacy Inventory Flowchart
+
+![Pharmacy Flowchart](assets/assessment-01/pharmacy-flowchart.svg)
+
+#### Inventory Management Workflow
+
+![Pharmacy Inventory Workflow](assets/assessment-01/pharmacy-inventory-workflow.svg)
+
+#### Pharmacy Sales Process
+
+![Pharmacy Sales Process](assets/assessment-01/pharmacy-sales-process.svg)
+
+#### Pharmacy Use Case
+
+![Pharmacy Use Case](assets/assessment-01/pharmacy-use-case.svg)
 
 ---
 
@@ -145,7 +197,7 @@ Explore the interactive browser-based project showcase:
 <div align="center">
 
 <a href="https://aliabbas0014.github.io/python-conditions-loops-assessment/demo.html">
-  <img src="https://img.shields.io/badge/OPEN_INTERACTIVE_DEMO-38BDF8?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Open Demo">
+  <img src="assets/svg-buttons/live-demo.svg" alt="Open Interactive Demo">
 </a>
 
 </div>
@@ -156,22 +208,66 @@ The demo provides a visual preview of both applications, including scholarship e
 
 ---
 
+## Project Documentation
+
+This section contains additional diagrams explaining the overall architecture, input validation, testing, execution process, and Python programming concepts used throughout the project.
+
+### 1. Overall Project Architecture
+
+![Project Architecture](assets/assessment-01/project-architecture.svg)
+
+### 2. Input Validation Workflow
+
+![Input Validation Workflow](assets/assessment-01/input-validation-workflow.svg)
+
+### 3. Testing and Test Cases
+
+![Testing Test Cases](assets/assessment-01/testing-test-cases.svg)
+
+### 4. Program Execution Workflow
+
+![Program Execution Workflow](assets/assessment-01/program-execution-workflow.svg)
+
+### 5. Python Concepts Overview
+
+![Python Concepts Overview](assets/assessment-01/python-concepts-overview.svg)
+
+---
+
 ## 📁 Project Structure
 
 ```text
 python-conditions-loops-assessment/
 │
+├── assets/
+│   ├── assessment-01/
+│   │   ├── header-banner.svg
+│   │   ├── footer-banner.svg
+│   │   ├── scholarship-function-structure.svg
+│   │   ├── scholarship-flowchart.svg
+│   │   ├── scholarship-eligibility-decision.svg
+│   │   ├── scholarship-use-case.svg
+│   │   ├── scholarship-evaluation-process.svg
+│   │   ├── pharmacy-function-structure.svg
+│   │   ├── pharmacy-flowchart.svg
+│   │   ├── pharmacy-inventory-workflow.svg
+│   │   ├── pharmacy-sales-process.svg
+│   │   ├── pharmacy-use-case.svg
+│   │   ├── project-architecture.svg
+│   │   ├── input-validation-workflow.svg
+│   │   ├── testing-test-cases.svg
+│   │   ├── program-execution-workflow.svg
+│   │   └── python-concepts-overview.svg
+│   │
+│   └── svg-buttons/
+│       ├── live-demo.svg
+│       ├── source-code.svg
+│       └── explore-project.svg
+│
 ├── student_scholarship_system.py
-│   └── Student Scholarship Eligibility application
-│
 ├── pharmacy_inventory_system.py
-│   └── Pharmacy Inventory Management application
-│
 ├── demo.html
-│   └── Interactive project showcase
-│
 └── README.md
-    └── Project documentation
 ```
 
 ---
@@ -185,6 +281,7 @@ python-conditions-loops-assessment/
 | HTML5 | Demo page structure |
 | CSS3 | Demo styling and animations |
 | JavaScript | Interactive browser demonstration |
+| SVG | README banners, buttons, and diagrams |
 | Git | Version control |
 | GitHub | Source code hosting |
 | GitHub Pages | Hosting the live demo |
@@ -255,7 +352,7 @@ No additional Python libraries or dependencies need to be installed.
 
 ## ▶️ How to Run the Programs
 
-### Run Application 1: Student Scholarship System
+### Application 1: Student Scholarship System
 
 ```bash
 py student_scholarship_system.py
@@ -263,7 +360,7 @@ py student_scholarship_system.py
 
 Enter the requested student information and review the scholarship eligibility report.
 
-### Run Application 2: Pharmacy Inventory System
+### Application 2: Pharmacy Inventory System
 
 ```bash
 py pharmacy_inventory_system.py
@@ -272,90 +369,6 @@ py pharmacy_inventory_system.py
 Enter the number of medicines and provide the requested inventory and sales information.
 
 Both applications run in the terminal and accept input directly from the user.
-
----
-
-## 🔄 Application Workflows
-
-### Student Scholarship Eligibility Workflow
-
-```text
-Start Application
-       |
-       v
-Enter Student Information
-       |
-       v
-Validate Input
-       |
-       v
-Check Marks, Attendance and Income
-       |
-       v
-Are All Conditions Satisfied?
-       |
-    +--+--+
-    |     |
-   Yes    No
-    |     |
-    v     v
-Check    Display
-Marks    Ineligibility
-    |     Reasons
-    v
-Assign Scholarship
-Category
-    |
-    v
-Display Final Report
-    |
-    v
-End
-```
-
-### Pharmacy Inventory Workflow
-
-```text
-Start Application
-       |
-       v
-Enter Number of Medicines
-       |
-       v
-Repeat Using For Loop
-       |
-       v
-Enter Medicine Details
-       |
-       v
-Enter Quantity Sold
-       |
-       v
-Check Available Stock
-       |
-    +--+--+
-    |     |
- Sufficient Insufficient
-    |     |
-    v     v
-Calculate Display
-Sales    Error
-    |
-    v
-Update Remaining Stock
-    |
-    v
-Check Low Stock
-    |
-    v
-Update Revenue and Counter
-    |
-    v
-Display Final Report
-    |
-    v
-End
-```
 
 ---
 
@@ -534,18 +547,34 @@ The applications focus on fundamental Python programming concepts. Some possible
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Developed%20By-Ali%20Abbas-2563EB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DEVELOPED%20BY-ALI%20ABBAS-2563EB?style=for-the-badge&labelColor=111318" alt="Developed by Ali Abbas">
+
+### Ali Abbas
+
+**Software Engineering Graduate | Python Bootcamp Student | Web Developer**
+
+<br>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 
 <br><br>
 
-**Ali Abbas**
+<a href="https://github.com/aliabbas0014">
+  <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+</a>
+<a href="https://www.linkedin.com/in/the-aliabbas/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://aliabbas0014.github.io/Portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
 
-Software Engineering Graduate | Python Learner
-
-[![GitHub](https://img.shields.io/badge/GitHub-aliabbas0014-181717?style=flat&amp;logo=github)](https://github.com/aliabbas0014)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0EA5E9?style=flat&amp;logo=googlechrome&amp;logoColor=white)](https://aliabbas0014.github.io/Portfolio)
-
-<br>
+<br><br>
 
 If you find this project useful, consider giving it a ⭐ on GitHub!
 
@@ -555,8 +584,6 @@ If you find this project useful, consider giving it a ⭐ on GitHub!
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:06B6D4,50:1D4ED8,100:0F172A&amp;height=120&amp;section=footer" width="100%" />
-
-**Built with Python. Focused on Learning. Inspired by Real-World Problems.**
+<img src="assets/assessment-01/footer-banner.svg" width="100%" alt="Python Assessment 01 Footer">
 
 </div>
